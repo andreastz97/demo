@@ -3,9 +3,10 @@ package api;
 import model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
 import service.PersonService;
 
-@RequestMapping("/api")
+@RequestMapping("api/v1/person")
 @RestController
 
 public class PersonController {

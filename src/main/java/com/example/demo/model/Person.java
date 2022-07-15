@@ -1,9 +1,6 @@
 package model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-
-import javax.persistence.Entity;
 import java.util.UUID;
 
 public class Person {
